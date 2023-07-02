@@ -46,10 +46,10 @@ a:hover {
   text-decoration: none;
 }
 
-#intro{
+#intro {
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -73,8 +73,17 @@ a:hover {
   font-weight: normal;
 }
 
-.section-plum{
+.section-plum {
   background-color: var(--plum);
+}
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 23, 228, 1) 0%,
+    rgba(134, 251, 251, 1) 100%
+  );
+  height: 2px;
 }
 
 #contact {
